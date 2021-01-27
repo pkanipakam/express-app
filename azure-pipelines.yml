@@ -9,8 +9,8 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
 
+steps:
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
@@ -19,6 +19,7 @@ steps:
     name: myEnvironment
     resourceType: VirtualMachine
     tags: web1 
+ 
 
 - script: 
     npm install
