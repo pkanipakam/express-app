@@ -6,6 +6,13 @@
 trigger:
 - main
 
+variables:
+  azureSubscription: '3fa40d5c-dbaa-49f0-8620-d88fea24f13b'
+
+  webAppName: 'express-app'
+
+  environmentName: 'myEnvironment'
+
 pool:
   vmImage: 'ubuntu-latest'
 
